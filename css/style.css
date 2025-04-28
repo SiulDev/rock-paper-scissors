@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20rem;
+    text-align: center;
+    background: #050505;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title{
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    color: white;
+}
+
+.btn{
+    margin-left: 0.8rem;
+    padding: 0.5rem 2rem;
+    font-size: 2rem;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+
+    &:hover{
+        margin: 0 1.2rem;
+        transform: scale(1.2);
+        color: #050505;
+        background-color: white;
+    }
+}
